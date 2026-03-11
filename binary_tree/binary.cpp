@@ -90,7 +90,7 @@ class binary{
 };
 
 int main(){
-    vector<int>preserie = {1,2,4,6,-1,-1,-1,5,7,-1,-1,3,8,10,-1,-1,-1,9,-1,-1};
+    vector<int>preserie = {1,2,4,-1,-1,5,-1,-1,3,6,-1,-1,7,-1,-1};
         binary test;
         node* root = test.create(preserie);
         cout<<"preorder:";
